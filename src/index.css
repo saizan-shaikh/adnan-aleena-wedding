@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --color-emerald-deep: #0B3D35;
+  --color-emerald-light: #13584D;
+  --color-emerald-subtle: #062621;
+
+  --color-gold-antique: #C8A45D;
+  --color-gold-light: #E5C989;
+  --color-gold-dark: #9E7C39;
+  --color-gold-subtle: rgba(200, 164, 93, 0.15);
+
+  --color-ivory-warm: #F8F3E7;
+  --color-ivory-pure: #FFFFFF;
+  --color-ivory-muted: #EFE8D8;
+
+  --color-dark-text: #17211F;
+  --color-dark-heading: #0B1715;
+
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* Global Reset & Strict Viewport Canvas Enforcement */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-ivory-warm);
+  color: var(--color-dark-text);
+  font-family: var(--font-sans);
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+/* Custom Text Selection */
+::selection {
+  background-color: #C8A45D;
+  color: #0B3D35;
+}
+
+/* Accessible Focus States */
+:focus-visible {
+  outline: 2px solid #C8A45D;
+  outline-offset: 2px;
+}
+
+/* Image Defaults */
+img, svg, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Button Base */
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Digital Invitation Viewport Paper Canvas */
+.ecard-paper-bg {
+  background-color: #F8F3E7;
+  background-image: radial-gradient(rgba(200, 164, 93, 0.14) 1.2px, transparent 0);
+  background-size: 28px 28px;
+}
+
+.gold-line-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, #C8A45D 50%, transparent 100%);
+}
+
+.gold-filigree-border {
+  border: 1.5px solid #C8A45D;
+  box-shadow: 0 0 0 1px rgba(229, 201, 137, 0.35), inset 0 0 15px rgba(200, 164, 93, 0.15);
+}
+
+.gold-card-shadow {
+  box-shadow: 0 15px 40px -10px rgba(11, 61, 53, 0.18), 0 4px 18px -2px rgba(200, 164, 93, 0.3);
+}
+
+.emerald-radial-glow {
+  background: radial-gradient(ellipse at 50% 40%, rgba(11, 61, 53, 0.1) 0%, rgba(248, 243, 231, 0) 75%);
+}

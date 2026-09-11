@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Deep Emerald Base -->
+  <rect width="128" height="128" rx="32" fill="#0B3D35" />
+  
+  <!-- Antique Gold Outer Border -->
+  <rect x="10" y="10" width="108" height="108" rx="22" fill="none" stroke="#C8A45D" stroke-width="4" stroke-opacity="0.85"/>
+  
+  <!-- Antique Gold Inner Border -->
+  <rect x="18" y="18" width="92" height="92" rx="14" fill="none" stroke="#C8A45D" stroke-width="2" stroke-opacity="0.5"/>
+  
+  <!-- Diamond Corner Ornaments (Islamic Geometric Influence) -->
+  <polygon points="26,22 30,26 26,30 22,26" fill="#C8A45D" opacity="0.9" />
+  <polygon points="102,22 106,26 102,30 98,26" fill="#C8A45D" opacity="0.9" />
+  <polygon points="26,98 30,102 26,106 22,102" fill="#C8A45D" opacity="0.9" />
+  <polygon points="102,98 106,102 102,106 98,102" fill="#C8A45D" opacity="0.9" />
+
+  <!-- Monogram A & A -->
+  <g fill="#C8A45D" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <!-- Left A -->
+    <text x="36" y="86" font-size="56" font-style="italic" font-weight="normal">A</text>
+    <!-- Ampersand -->
+    <text x="64" y="74" font-size="40" font-style="italic" opacity="0.8">&amp;</text>
+    <!-- Right A -->
+    <text x="92" y="86" font-size="56" font-style="italic" font-weight="normal">A</text>
+  </g>
+</svg>
