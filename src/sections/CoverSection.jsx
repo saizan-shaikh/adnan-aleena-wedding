@@ -53,7 +53,7 @@ export function CoverSection() {
         initial={{ opacity: 0, x: -30, y: -30 }}
         animate={{ opacity: 1, x: 0, y: 0 }}
         transition={{ duration: 1.5, delay: 0.2 }}
-        className="absolute top-0 left-0 w-32 sm:w-48 lg:w-64 aspect-square opacity-90 z-10 pointer-events-none drop-shadow-md"
+        className="absolute top-0 left-0 w-36 sm:w-52 lg:w-[18rem] aspect-square opacity-90 z-10 pointer-events-none drop-shadow-md"
       >
         <img src="/assets/images/top-floral-corner.png" alt="" className="w-full h-full object-contain object-top-left" />
       </motion.div>
@@ -63,7 +63,7 @@ export function CoverSection() {
         initial={{ opacity: 0, x: 30, y: -30 }}
         animate={{ opacity: 1, x: 0, y: 0 }}
         transition={{ duration: 1.5, delay: 0.2 }}
-        className="absolute top-0 right-0 w-32 sm:w-48 lg:w-64 aspect-square opacity-90 z-10 pointer-events-none drop-shadow-md"
+        className="absolute top-0 right-0 w-36 sm:w-52 lg:w-[18rem] aspect-square opacity-90 z-10 pointer-events-none drop-shadow-md"
       >
         <img src="/assets/images/top-floral-corner.png" alt="" className="w-full h-full object-contain object-top-left -scale-x-100" />
       </motion.div>
@@ -73,7 +73,7 @@ export function CoverSection() {
         initial={{ opacity: 0, x: -30, y: 30 }}
         animate={{ opacity: 1, x: 0, y: 0 }}
         transition={{ duration: 1.5, delay: 0.4 }}
-        className="absolute bottom-0 left-0 w-40 sm:w-56 lg:w-80 aspect-square opacity-[0.85] z-10 pointer-events-none drop-shadow-xl"
+        className="absolute bottom-0 left-0 w-44 sm:w-60 lg:w-[22rem] aspect-square opacity-[0.85] z-10 pointer-events-none drop-shadow-xl"
       >
         <img src="/assets/images/bottom-floral-guldasta.png" alt="" className="w-full h-full object-contain object-bottom-left" />
       </motion.div>
@@ -83,7 +83,7 @@ export function CoverSection() {
         initial={{ opacity: 0, x: 30, y: 30 }}
         animate={{ opacity: 1, x: 0, y: 0 }}
         transition={{ duration: 1.5, delay: 0.4 }}
-        className="absolute bottom-0 right-0 w-40 sm:w-56 lg:w-80 aspect-square opacity-[0.85] z-10 pointer-events-none drop-shadow-xl"
+        className="absolute bottom-0 right-0 w-44 sm:w-60 lg:w-[22rem] aspect-square opacity-[0.85] z-10 pointer-events-none drop-shadow-xl"
       >
         <img src="/assets/images/bottom-floral-guldasta.png" alt="" className="w-full h-full object-contain object-bottom-left -scale-x-100" />
       </motion.div>
@@ -113,7 +113,7 @@ export function CoverSection() {
         
         {/* Adnan */}
         <motion.div variants={itemVariant} className="flex flex-col items-center">
-          <h1 className="font-serif text-[clamp(3.25rem,14vw,8.5rem)] text-emerald-deep uppercase tracking-tighter leading-[0.85] drop-shadow-sm">
+          <h1 className="font-serif text-[clamp(2.75rem,12vw,8.5rem)] text-emerald-deep uppercase tracking-tighter leading-[0.85] drop-shadow-sm">
             {weddingData.groom.firstName}
           </h1>
         </motion.div>
@@ -137,7 +137,7 @@ export function CoverSection() {
 
         {/* Aleena */}
         <motion.div variants={itemVariant} className="flex flex-col items-center mb-10 sm:mb-14">
-          <h1 className="font-serif text-[clamp(3.25rem,14vw,8.5rem)] text-emerald-deep uppercase tracking-tighter leading-[0.85] drop-shadow-sm">
+          <h1 className="font-serif text-[clamp(2.75rem,12vw,8.5rem)] text-emerald-deep uppercase tracking-tighter leading-[0.85] drop-shadow-sm">
             {weddingData.bride.firstName}
           </h1>
         </motion.div>

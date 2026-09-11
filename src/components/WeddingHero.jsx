@@ -66,7 +66,7 @@ export function WeddingHero({ isOpen, onOpenInvitation }) {
           onClick={togglePhotoReveal}
           tabIndex={0}
           role="button"
-          aria-label={isPhotoRevealed ? "Hide couple portrait" : "Reveal real couple portrait of Adnan & Aleena"}
+          aria-label={isPhotoRevealed ? "Hide couple portrait" : "Reveal real couple portrait of Abdullah & Aamena"}
           onKeyDown={(e) => {
             if (e.key === 'Enter' || e.key === ' ') {
               e.preventDefault();
@@ -111,7 +111,7 @@ export function WeddingHero({ isOpen, onOpenInvitation }) {
                 {/* Bottom Tap to Reveal Instruction */}
                 <div className="pb-4 space-y-2">
                   <p className="font-serif italic text-base sm:text-lg text-gold-antique">
-                    Adnan &amp; Aleena
+                    Abdullah &amp; Aamena
                   </p>
                   <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold-antique/15 border border-gold-antique/50 text-gold-light text-xs font-sans tracking-widest uppercase transition-all duration-300 group-hover:bg-gold-antique group-hover:text-emerald-deep">
                     <span>✨ TAP TO REVEAL PHOTO ✨</span>
@@ -145,7 +145,7 @@ export function WeddingHero({ isOpen, onOpenInvitation }) {
           </AnimatePresence>
         </motion.div>
 
-        {/* 3. Primary Typographic Centerpiece: Adnan & Aleena */}
+        {/* 3. Primary Typographic Centerpiece: Abdullah & Aamena */}
         <motion.div 
           variants={fadeUpVariant}
           initial="hidden"

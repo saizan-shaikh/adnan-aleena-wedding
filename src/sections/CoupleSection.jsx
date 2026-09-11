@@ -70,11 +70,11 @@ export function CoupleSection() {
           </div>
           
           {/* Groom Medallion */}
-          <div className="absolute top-6 sm:top-10 right-0 sm:right-4 w-[40%] max-w-[140px] sm:max-w-[180px] aspect-square flex flex-col items-center justify-center z-10 drop-shadow-lg">
+          <div className="absolute top-6 sm:top-10 right-0 sm:right-4 w-[48%] max-w-[160px] sm:max-w-[190px] aspect-square flex flex-col items-center justify-center z-10 drop-shadow-lg">
             <img src="/assets/images/groom-medallion.png" alt="" className="absolute inset-0 w-full h-full object-contain opacity-90" />
             <div className="relative z-10 flex flex-col items-center text-center mt-1">
-              <span className="font-serif text-[clamp(0.8rem,3vw,1.3rem)] text-emerald-deep font-bold tracking-widest leading-none">
-                ADNAN
+              <span className="font-serif text-[clamp(0.6rem,2.5vw,1.1rem)] text-emerald-deep font-bold tracking-widest leading-none">
+                ABDULLAH
               </span>
               <span className="font-sans text-[clamp(0.45rem,1.5vw,0.6rem)] text-gold-dark tracking-[0.3em] uppercase mt-1 sm:mt-1.5">
                 Groom
@@ -86,8 +86,8 @@ export function CoupleSection() {
           <div className="absolute bottom-0 sm:bottom-2 -left-3 sm:-left-6 w-[52%] max-w-[180px] sm:max-w-[220px] aspect-square flex flex-col items-center justify-center z-10 drop-shadow-lg">
             <img src="/assets/images/bride-medallion.png" alt="" className="absolute inset-0 w-full h-full object-contain opacity-95" />
             <div className="relative z-10 flex flex-col items-center text-center mt-1">
-              <span className="font-serif text-[clamp(0.9rem,3.5vw,1.4rem)] text-emerald-deep font-bold tracking-widest leading-none">
-                ALEENA
+              <span className="font-serif text-[clamp(0.8rem,3vw,1.2rem)] text-emerald-deep font-bold tracking-widest leading-none">
+                AAMENA
               </span>
               <span className="font-sans text-[clamp(0.45rem,1.5vw,0.6rem)] text-gold-dark tracking-[0.3em] uppercase mt-1 sm:mt-1.5">
                 Bride
@@ -99,7 +99,7 @@ export function CoupleSection() {
 
         {/* Typography */}
         <motion.div variants={fadeInVariant} className="flex flex-col items-center text-center mt-4">
-          <h2 className="font-serif text-[3.5rem] sm:text-7xl font-bold text-gold-dark tracking-tight uppercase leading-none drop-shadow-sm">
+          <h2 className="font-serif text-[clamp(2.5rem,10vw,4.5rem)] sm:text-7xl font-bold text-gold-dark tracking-tight uppercase leading-none drop-shadow-sm">
             {groom.firstName}
           </h2>
           
@@ -117,7 +117,7 @@ export function CoupleSection() {
             </div>
           </div>
           
-          <h2 className="font-serif text-[3.5rem] sm:text-7xl font-bold text-gold-dark tracking-tight uppercase leading-none drop-shadow-sm">
+          <h2 className="font-serif text-[clamp(2.5rem,10vw,4.5rem)] sm:text-7xl font-bold text-gold-dark tracking-tight uppercase leading-none drop-shadow-sm">
             {bride.firstName}
           </h2>
         </motion.div>

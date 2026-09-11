@@ -5,8 +5,8 @@
 
 export const weddingData = {
   meta: {
-    title: 'Wedding Invitation of Adnan & Aleena',
-    description: 'Join us in celebrating the Royal Muslim Wedding of Adnan Ahmad and Aleena Noor.',
+    title: 'Wedding Invitation of Abdullah & Aamena',
+    description: 'Join us in celebrating the Royal Muslim Wedding of Abdullah Ahmad and Aamena Noor.',
     ogImage: '/assets/images/couple-portrait.jpg',
     favicon: '/favicon.svg',
   },
@@ -21,25 +21,25 @@ export const weddingData = {
   },
 
   groom: {
-    firstName: 'Adnan',
+    firstName: 'Abdullah',
     lastName: 'Ahmad',
-    fullName: 'Adnan Ahmad',
+    fullName: 'Abdullah Ahmad',
     title: 'Son of Mr. Mohammad Tanveer & Mrs. Farida Begum',
     bio: 'Software Architect & Philanthropist',
     image: '/assets/images/photo5.jpg',
   },
 
   bride: {
-    firstName: 'Aleena',
+    firstName: 'Aamena',
     lastName: 'Noor',
-    fullName: 'Aleena Noor',
+    fullName: 'Aamena Noor',
     title: 'Daughter of Dr. Tariq Mahmood & Mrs. Shahida Parveen',
     bio: 'Interior Designer & Artist',
     image: '/assets/images/photo4.jpg',
   },
 
   couple: {
-    hashtag: '#AdnanWedsAleena',
+    hashtag: '#AbdullahWedsAamena',
     monogram: 'A & A',
     mainHeading: 'The Royal Wedding',
     subHeading: 'Under the Blessings of Almighty Allah',
